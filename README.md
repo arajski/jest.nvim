@@ -1,21 +1,18 @@
 # jest.nvim
-
+Forked from [kubejm/jest.nvim](https://github.com/kubejm/jest.nvim)
+Added nvim-dap debugging and rearranged windows a bit.
 Ability to invoke jest within nvim.
-
-Inspired by [coc-jest](https://github.com/neoclide/coc-jest), which is
-dependent on coc.nvim.
-
-<img src="https://raw.githubusercontent.com/kubejm/jest.nvim/master/demo.gif" />
 
 ## Requirements
 
 * Neovim
 * Jest (within node_modules of working project)
+* nvim-dap
 
 ## Installation
 
 ```vim
-Plug 'kubejm/jest.nvim'
+Plug 'arajski/jest.nvim'
 ```
 
 ## Usage
@@ -25,3 +22,4 @@ Plug 'kubejm/jest.nvim'
 | `:Jest`       | Run Jest on entire project         |
 | `:JestFile`   | Run Jest on file in current buffer |
 | `:JestSingle` | Run Jest on test name under cursor |
+| `:JestDebug`  | Debug Jest on a single test case   |

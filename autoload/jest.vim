@@ -9,3 +9,6 @@ endfunction
 function jest#test_single()
   call luaeval('require("jest").testSingle()')
 endfunction
+function jest#debug_single()
+  call luaeval('require("jest").debugSingle()')
+endfunction

@@ -6,3 +6,4 @@ let g:loaded_jest = 1
 command Jest :call jest#test_project()
 command JestFile :call jest#test_file()
 command JestSingle :call jest#test_single()
+command JestDebug :call jest#debug_single()
