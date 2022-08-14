@@ -9,7 +9,7 @@ end
 local function run_jest(args)
   create_window()
   local t = {}
-  table.insert(t, 'terminal npx jest')
+  table.insert(t, 'terminal yarn test')
   if args ~= nil then
     for _, v in pairs(args) do
       table.insert(t, v)
